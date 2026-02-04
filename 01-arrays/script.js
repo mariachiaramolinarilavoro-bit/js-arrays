@@ -15,6 +15,11 @@ const fourthTeacher = teachers[3];
 console.log(fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
+
+//const patrickTeacher = teachers;
+//patrickTeacher[4] = 'Patrick';
+//console.log('patrick', patrickTeacher)    //Show individually
+
 teachers[4] = 'Patrick';
 
 console.log(teachers);
@@ -30,8 +35,14 @@ const firstTeacher = teachers.shift();
 console.log(teachers);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+const otherTeacher = teachers.push('Vanessa')
+
+console.log(teachers)
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+const other_Teacher = teachers.unshift('Sarah')
+
+console.log(teachers)
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
